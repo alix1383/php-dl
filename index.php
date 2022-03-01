@@ -1,7 +1,7 @@
 
 <?php
 
-$url = 'https://wordpress.org/latest.zip';
+$url = '';
  
 $file_name = basename($url);
 if(file_put_contents( $file_name,file_get_contents($url))) {
