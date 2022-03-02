@@ -1,7 +1,7 @@
 
 <?php
 
-$url = 'link here';
+$url = 'https://test/123.zip';
  
 $file_name = basename($url);
 if(file_put_contents( $file_name,file_get_contents($url))) {
